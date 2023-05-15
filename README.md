@@ -7,7 +7,7 @@ Porting to macOS by Zou Guangxian <zouguangxian@163.com> based on http://marc-ab
 
 ## Install
 ```
-    $ git clone https://github.com/mezantrop/tsocks.git
+    $ git clone https://github.com/ArioWei/tsocks.git
     $ cd tsocks
     $ autoconf -f
     $ ./configure --prefix=/usr/local --libdir=/usr/local/lib --with-conf=/usr/local/etc/tsocks.conf --enable-debug
@@ -35,6 +35,10 @@ Porting to macOS by Zou Guangxian <zouguangxian@163.com> based on http://marc-ab
     server = 127.0.0.1
     server_type = 5
     server_port = 8135
+```
+使用方法
+```
+    $ tsocks 命令/脚本
 ```
 or
 ```
