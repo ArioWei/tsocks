@@ -1,5 +1,5 @@
 # tsocks
-**a transparent SOCKS proxying library (fro Mac)**
+**a transparent SOCKS proxying library (for Mac)**
 
 This project is originally hosted by sourceforge http://tsocks.sourceforge.net
 
