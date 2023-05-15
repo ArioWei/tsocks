@@ -26,6 +26,16 @@ Porting to macOS by Zou Guangxian <zouguangxian@163.com> based on http://marc-ab
 
     $ TSOCKS_DEBUG=2 tsocks git pull
 ```
+如果没有tsocks.conf，手动创建
+```
+    touch /usr/local/etc/tsocks.conf
+```
+编辑该文件，输入以下内容
+```
+    server = 127.0.0.1
+    server_type = 5
+    server_port = 8135
+```
 or
 ```
     $ source /usr/local/bin/tsocks on 
